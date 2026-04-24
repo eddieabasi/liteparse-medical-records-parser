@@ -1,0 +1,19 @@
+{
+  "name": "liteparse-medical-records-parser",
+  "version": "0.1.0",
+  "description": "Local HIPAA-safe medical record extractor using LiteParse — no PHI leaves the machine",
+  "scripts": {
+    "start": "ts-node src/index.ts",
+    "extract": "ts-node src/index.ts --input ./records/ --output fhir"
+  },
+  "dependencies": {
+    "liteparse": "^0.1.0",
+    "@anthropic-ai/sdk": "^0.40.0",
+    "dotenv": "^16.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.0",
+    "ts-node": "^10.9.0",
+    "@types/node": "^20.0.0"
+  }
+}

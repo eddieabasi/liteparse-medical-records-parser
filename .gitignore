@@ -1,0 +1,10 @@
+.env
+node_modules/
+dist/
+*.js
+*.d.ts
+*.tsbuildinfo
+.DS_Store
+records/*.pdf
+output/
+audit.log
